@@ -1,0 +1,49 @@
+@import '../base/variaveis';
+
+#newsletter {
+    background-color: $cor-3;
+    padding: 4em;
+    text-align: center;
+    .texto {
+        color: $cor-1;
+        h2 {
+            margin: 1em;
+            font-size: $tamanho-da-fonte / 2;
+        }
+    }
+
+    input {
+        border-radius: 20px;
+        height: 40px;
+        border: none;
+        width: 540px;
+        text-align: center;
+        font-size: 14px;
+        &:hover,
+        &:focus-within{
+            box-shadow: 1px 1px 8px 1px $cor-1;
+            outline: none;
+        }
+    }
+    button {
+        text-transform: uppercase;
+        margin-top: .75em;
+        outline: none;
+        height: 40px;
+        text-align: center;
+        width: 130px;
+        background-color: $cor-1;
+        color: $cor-3;
+        letter-spacing: 1px;
+        font-size: .80em;
+        font-weight: bold;
+        cursor: pointer;
+        border: 2px $cor-1;
+        border-radius: 40px;
+        &:hover{
+            color: $cor-3;
+            background-color: $cor-2;
+            border-color: $cor-2;
+        }
+    }
+}

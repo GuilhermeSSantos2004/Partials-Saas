@@ -1,21 +1,21 @@
 @import '../base/variaveis';
 
-nav{
+nav {
     text-align: center;
-    ul{
-        li{
-            display: inline-block;
-            padding: 1em;
-            a {
-                text-transform: uppercase;
-                text-decoration: none;
-                font-weight: bold;
-                color: $cor-um;
-                &:hover{
-                    border-bottom: 2px solid $cor-dois;
-                }
+    ul {
+        li {
+           display: inline-block;
+           padding: 1em;
+           a {
+            text-transform: uppercase;
+            text-decoration: none;
+            list-style: none;
+            font-weight: bold;
+            color: $cor-1;
+            &:hover{
+                border-bottom: 2px solid $cor-2;
             }
-            
+           } 
         }
     }
 }
